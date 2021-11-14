@@ -69,7 +69,7 @@ import static com.codeborne.selenide.Selenide.open;
         // утверждение
         $("#submit").click();
 
-        // Проверка заполнения
+        // проверки
         verifyData("Student Name","Айдана Жолдасова");
         verifyData("Student Email","user@gmail.com");
         verifyData("Gender","Female");
