@@ -46,8 +46,8 @@ import static com.codeborne.selenide.Selenide.open;
 
         // предмет
         $("#subjectsInput").click();
-        $("#subjectsInput").setValue("Math");
-        $(byText("Math")).click();
+        $("#subjectsInput").sendKeys("Ma");
+        $(byText("Maths")).click();
 
         // хобби
         $(byText("Music")).click();
@@ -55,7 +55,7 @@ import static com.codeborne.selenide.Selenide.open;
         // загрузить фотографию
         $("#uploadPicture").uploadFile(new File("src//test//resources//girl.jpg"));
 
-        // адресс
+        // адрес
         $("#currentAdress").setValue("Тараз, Баженова 36");
 
         // штат
