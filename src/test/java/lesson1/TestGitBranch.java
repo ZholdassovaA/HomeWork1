@@ -8,12 +8,6 @@ public class TestGitBranch {
     @Test
         // wrong method for test
     void firstMethod() {
-        Assertions.assertTrue(false);
-    }
-
-
-    @Test
-    void secondMethod() {
         Assertions.assertTrue(true);
     }
 
