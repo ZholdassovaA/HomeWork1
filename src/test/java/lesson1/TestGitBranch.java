@@ -11,5 +11,10 @@ public class TestGitBranch {
         Assertions.assertTrue(true);
     }
 
+    @Test
+    void secondMethod() {
+        // just for third commit
+        Assertions.assertFalse(false);
 
+    }
 }
